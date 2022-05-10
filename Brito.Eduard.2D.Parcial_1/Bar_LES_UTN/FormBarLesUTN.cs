@@ -19,7 +19,7 @@ namespace Bar_LES_UTN
 
         private void FormBarLesUTN_Load(object sender, EventArgs e)
         {
-            //pepe
+            //Eduard
         }
     }
 }
