@@ -1,10 +1,11 @@
+using Bar_LesUTN.Vista;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Bar_LES_UTN
+namespace Bar_LesUTN
 {
     internal static class Program
     {
@@ -17,7 +18,7 @@ namespace Bar_LES_UTN
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormBarLesUTN());
+            Application.Run(new FormLogin());
         }
     }
 }

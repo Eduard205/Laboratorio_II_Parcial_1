@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eduar\\OneDrive\\Documentos\\Laboratorio_II_Parcial_1\\Brito.Eduard.2D.Parcial_1\\Bar_LES_UTN\\Bar_LES_UTN.csproj",
-      "projectName": "Bar_LES_UTN",
-      "projectPath": "C:\\Users\\eduar\\OneDrive\\Documentos\\Laboratorio_II_Parcial_1\\Brito.Eduard.2D.Parcial_1\\Bar_LES_UTN\\Bar_LES_UTN.csproj",
+      "projectUniqueName": "C:\\Users\\eduar\\OneDrive\\Documentos\\Laboratorio_II_Parcial_1\\Brito.Eduard.2D.Parcial_1\\Bar_LES_UTN\\Bar_LesUTN.csproj",
+      "projectName": "Bar_LesUTN",
+      "projectPath": "C:\\Users\\eduar\\OneDrive\\Documentos\\Laboratorio_II_Parcial_1\\Brito.Eduard.2D.Parcial_1\\Bar_LES_UTN\\Bar_LesUTN.csproj",
       "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\eduar\\OneDrive\\Documentos\\Laboratorio_II_Parcial_1\\Brito.Eduard.2D.Parcial_1\\Bar_LES_UTN\\obj\\",
       "projectStyle": "PackageReference",

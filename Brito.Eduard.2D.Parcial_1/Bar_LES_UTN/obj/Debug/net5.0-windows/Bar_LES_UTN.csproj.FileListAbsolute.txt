@@ -5,7 +5,6 @@ C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parc
 C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Bar_LES_UTN\bin\Debug\net5.0-windows\Bar_LES_UTN.dll
 C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Bar_LES_UTN\bin\Debug\net5.0-windows\Bar_LES_UTN.pdb
 C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Bar_LES_UTN\obj\Debug\net5.0-windows\Bar_LES_UTN.csproj.AssemblyReference.cache
-C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Bar_LES_UTN\obj\Debug\net5.0-windows\Bar_LES_UTN.FormBarLesUTN.resources
 C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Bar_LES_UTN\obj\Debug\net5.0-windows\Bar_LES_UTN.csproj.GenerateResource.cache
 C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Bar_LES_UTN\obj\Debug\net5.0-windows\Bar_LES_UTN.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Bar_LES_UTN\obj\Debug\net5.0-windows\Bar_LES_UTN.AssemblyInfoInputs.cache
@@ -16,3 +15,4 @@ C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parc
 C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Bar_LES_UTN\obj\Debug\net5.0-windows\Bar_LES_UTN.pdb
 C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Bar_LES_UTN\obj\Debug\net5.0-windows\Bar_LES_UTN.genruntimeconfig.cache
 C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Bar_LES_UTN\obj\Debug\net5.0-windows\ref\Bar_LES_UTN.dll
+C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Bar_LES_UTN\obj\Debug\net5.0-windows\Bar_LES_UTN.FormMenuPrincipal.resources
