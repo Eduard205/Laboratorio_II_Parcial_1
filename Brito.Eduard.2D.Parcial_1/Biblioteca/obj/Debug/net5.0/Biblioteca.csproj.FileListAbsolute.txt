@@ -1,0 +1,12 @@
+C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Biblioteca\bin\Debug\net5.0\Biblioteca.deps.json
+C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Biblioteca\bin\Debug\net5.0\Biblioteca.dll
+C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Biblioteca\bin\Debug\net5.0\Biblioteca.pdb
+C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Biblioteca\obj\Debug\net5.0\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Biblioteca\obj\Debug\net5.0\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Biblioteca\obj\Debug\net5.0\Biblioteca.AssemblyInfoInputs.cache
+C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Biblioteca\obj\Debug\net5.0\Biblioteca.AssemblyInfo.cs
+C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Biblioteca\obj\Debug\net5.0\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Biblioteca\obj\Debug\net5.0\Biblioteca.dll
+C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Biblioteca\obj\Debug\net5.0\refint\Biblioteca.dll
+C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Biblioteca\obj\Debug\net5.0\Biblioteca.pdb
+C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Biblioteca\obj\Debug\net5.0\ref\Biblioteca.dll
