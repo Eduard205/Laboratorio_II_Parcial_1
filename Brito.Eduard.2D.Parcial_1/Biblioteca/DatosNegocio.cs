@@ -1,21 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Biblioteca
 {
     public static class DatosNegocio
     {
         static List<Usuario> listaUsuarios;
-        //static List<Producto> inventario;
-        static List<Mesa> listaMesas;
+        static List<Producto> inventario;
+        static Dictionary<int, Mesa> listaMesas;
 
         static DatosNegocio()
         {
-            // InstanciarMesas();
-            //InstanciarProductos();
+            InstanciarMesas();
+            InstanciarProductos();
             InstanciarUsuarios();
         }
 
@@ -38,45 +34,59 @@ namespace Biblioteca
             }
             return null;
         }
-        private static void InstanciarMesas()
+        private static Dictionary<int, Mesa> InstanciarMesas()
         {
-            listaMesas = new List<Mesa>()
+            return listaMesas = new Dictionary<int, Mesa>
             {
-              new Mesa(1,new Cliente(1,"Juan",new Cuenta(new List<Producto>()))),
-              /*
-                new Mesa(2,new Cliente(2,"Margarita",
-                    new Cuenta(new List<Producto>(){
-                              new Comida(nombre:"Hambur Completa",cantDisp:20,precio:600,
-                                        new List<EIngredientes>(){EIngredientes.CarneRoja,EIngredientes.Lechuga,EIngredientes.Queso,EIngredientes.Tomate}),
+                {1,new Mesa() { MesaNro= 1, Cliente= new Cliente(1, "Carlos", new Cuenta(new List<Producto>(){
+                    new Comida("Hamburguesa Especial", 20, 600, new List<EIngredientes>(){
+                        EIngredientes.Carne, EIngredientes.Lechuga, EIngredientes.Queso, EIngredientes.Tomate})}))}},
 
-                              new Comida(nombre:"Entradadita",cantDisp:200,precio:300,
-                                        new List<EIngredientes>(){ EIngredientes.Aceitunas,EIngredientes.Queso,EIngredientes.Papas,EIngredientes.Salchicha}),
-                               new Bebida(nombre:"Coca Cola",cantDisp:101,precio: 350,conAlcohol: false,formato: EVersionBebida.BotellaLitro),
-                                new Bebida(nombre:"Coca Cola",cantDisp:101,precio: 350,conAlcohol: false,formato: EVersionBebida.BotellaLitro)
-                    }
-                    ))),
-              */
-              new Mesa(3,null),
-              new Mesa(4,null),
-              new Mesa(5,null),
-              new Mesa(6,null),
-              new Mesa(7,null),
-              new Mesa(8,null),
-              new Mesa(9,null),
-              new Mesa(10,null),
-              new Mesa(11,null),
-              new Mesa(12,null),
-              new Mesa(13,null),
-              new Mesa(14,null),
-              new Mesa(15,null),
-              new Mesa(16,null),
-              new Mesa(17,null),
-              new Mesa(18,null),
-              new Mesa(18,null),
-             // new Mesa(19,new Cliente(1,"Juan",new Cuenta(new List<Producto>(){new Bebida(nombre:"Andes",cantDisp:10,precio: 340,conAlcohol: true,formato: EVersionBebida.BotellaLitro)}))),
-              new Mesa(20,null),
+                {2,new Mesa() { MesaNro= 2, Cliente= new Cliente(2, "Maria", new Cuenta(new List<Producto>(){
+                    new Comida("Hamburguesa Simple", 50, 400, new List<EIngredientes>(){
+                        EIngredientes.Carne, EIngredientes.Queso})}))}},
+
+                {3,new Mesa() { MesaNro= 3, Cliente= new Cliente(3, "Diego", new Cuenta(new List<Producto>()))}},
+                {4,new Mesa() { MesaNro= 4, Cliente= null}},
+                {5,new Mesa() { MesaNro= 5, Cliente= null}},
+                {6,new Mesa() { MesaNro= 6, Cliente= null}},
+                {7,new Mesa() { MesaNro= 7, Cliente= null}},
+                {8,new Mesa() { MesaNro= 8, Cliente= null}},
+                {9,new Mesa() { MesaNro= 9, Cliente= null}},
+                {10,new Mesa() { MesaNro= 10, Cliente= null}},
+                {11,new Mesa() { MesaNro= 11, Cliente= null}},
+                {12,new Mesa() { MesaNro= 12, Cliente= null}},
+                {13,new Mesa() { MesaNro= 13, Cliente= null}},
+                {14,new Mesa() { MesaNro= 14, Cliente= null}},
+                {15,new Mesa() { MesaNro= 15, Cliente= null}},
+                {16,new Mesa() { MesaNro= 16, Cliente= null}},
+                {17,new Mesa() { MesaNro= 17, Cliente= new Cliente(17, "Alberto", new Cuenta(new List<Producto>()))}},
+                {18,new Mesa() { MesaNro= 18, Cliente= null}},
+                {19,new Mesa() { MesaNro= 19, Cliente= null}},
+                {20,new Mesa() { MesaNro= 20, Cliente= new Cliente(20, "Micaela", new Cuenta(new List<Producto>(){
+                    new Bebida("Quilmes", 50, 250, true, EPresentacionBebida.LataChica)}))}},
+
             };
 
         }
+        private static void InstanciarProductos()
+        {
+            inventario = new List<Producto>()
+            {
+              new Bebida(nombre:"Coca Cola", cantidadDisponible:100, precio:100, conAlcohol:false, EPresentacionBebida.LataChica),
+              new Bebida(nombre:"Mojito", cantidadDisponible:50, precio:700, conAlcohol:true, EPresentacionBebida.coctel),
+              new Bebida(nombre:"Quilmes", cantidadDisponible:100, precio:450, conAlcohol:true, EPresentacionBebida.BotellaLitro),
+              new Bebida(nombre:"IPA", cantidadDisponible:50, precio:250, conAlcohol:true, EPresentacionBebida.VasoPinta),
+
+              new Comida(nombre:"Hamburguesa Especial", cantidadDisponible:30, precio:800, new List<EIngredientes>(){
+                  EIngredientes.Carne,EIngredientes.Lechuga,EIngredientes.Queso,EIngredientes.Tomate}),
+              new Comida(nombre:"Hambur Simple", cantidadDisponible:50, precio:400, new List<EIngredientes>(){
+                  EIngredientes.Carne, EIngredientes.Queso}),
+              new Comida(nombre:"Picada",cantidadDisponible:100, precio:700, new List<EIngredientes>(){
+                  EIngredientes.Aceitunas,EIngredientes.Queso,EIngredientes.Salame,EIngredientes.Jamon})
+            };
+
+        }
+
     }
 }

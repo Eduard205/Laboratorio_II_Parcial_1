@@ -6,12 +6,23 @@ using System.Threading.Tasks;
 
 namespace Biblioteca
 {
+   /* public enum EUbicacionMesa
+    {
+        Salon,
+        Barra,
+        Vereda
+    }*/
     public class Mesa
     {
         int mesaNro;
+       // EUbicacionMesa ubicacionMesa;
         Cliente cliente;
 
-        public Mesa(int mesaNro, Cliente cliente)
+        public Mesa()
+        {
+
+        }
+        public Mesa(int mesaNro, Cliente cliente):this()
         {
             this.mesaNro = mesaNro;
             this.cliente = cliente;
@@ -24,6 +35,7 @@ namespace Biblioteca
         public int MesaNro 
         {
             get { return mesaNro; }
+            set { mesaNro = value; }
         }
 
         public bool EsBarra
