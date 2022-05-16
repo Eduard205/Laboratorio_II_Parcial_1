@@ -38,15 +38,15 @@ namespace Biblioteca
         {
             return listaMesas = new Dictionary<int, Mesa>
             {
-                {1,new Mesa() { MesaNro= 1, Cliente= new Cliente(1, "Carlos", new Cuenta(new List<Producto>(){
-                    new Comida("Hamburguesa Especial", 20, 600, new List<EIngredientes>(){
+                {1,new Mesa() { MesaNro= 1, Cliente= new Cliente(mesaNro:1, nombre:"Carlos", new Cuenta(new List<Producto>(){
+                    new Comida(nombre:"Hamburguesa Especial", cantidadDisponible:20, precio:600, new List<EIngredientes>(){
                         EIngredientes.Carne, EIngredientes.Lechuga, EIngredientes.Queso, EIngredientes.Tomate})}))}},
 
-                {2,new Mesa() { MesaNro= 2, Cliente= new Cliente(2, "Maria", new Cuenta(new List<Producto>(){
-                    new Comida("Hamburguesa Simple", 50, 400, new List<EIngredientes>(){
+                {2,new Mesa() { MesaNro= 2, Cliente= new Cliente(mesaNro:2, nombre:"Maria", new Cuenta(new List<Producto>(){
+                    new Comida(nombre:"Hamburguesa Simple", cantidadDisponible:50, precio:400, new List<EIngredientes>(){
                         EIngredientes.Carne, EIngredientes.Queso})}))}},
 
-                {3,new Mesa() { MesaNro= 3, Cliente= new Cliente(3, "Diego", new Cuenta(new List<Producto>()))}},
+                {3,new Mesa() { MesaNro= 3, Cliente= new Cliente(mesaNro:3, nombre:"Diego", new Cuenta(new List<Producto>()))}},
                 {4,new Mesa() { MesaNro= 4, Cliente= null}},
                 {5,new Mesa() { MesaNro= 5, Cliente= null}},
                 {6,new Mesa() { MesaNro= 6, Cliente= null}},
@@ -60,11 +60,11 @@ namespace Biblioteca
                 {14,new Mesa() { MesaNro= 14, Cliente= null}},
                 {15,new Mesa() { MesaNro= 15, Cliente= null}},
                 {16,new Mesa() { MesaNro= 16, Cliente= null}},
-                {17,new Mesa() { MesaNro= 17, Cliente= new Cliente(17, "Alberto", new Cuenta(new List<Producto>()))}},
+                {17,new Mesa() { MesaNro= 17, Cliente= new Cliente(mesaNro:17, nombre:"Alberto", new Cuenta(new List<Producto>()))}},
                 {18,new Mesa() { MesaNro= 18, Cliente= null}},
                 {19,new Mesa() { MesaNro= 19, Cliente= null}},
-                {20,new Mesa() { MesaNro= 20, Cliente= new Cliente(20, "Micaela", new Cuenta(new List<Producto>(){
-                    new Bebida("Quilmes", 50, 250, true, EPresentacionBebida.LataChica)}))}},
+                {20,new Mesa() { MesaNro= 20, Cliente= new Cliente(mesaNro:20, nombre:"Micaela", new Cuenta(new List<Producto>(){
+                    new Bebida(nombre:"Quilmes", cantidadDisponible:50, precio:250, conAlcohol:true, EPresentacionBebida.LataChica)}))}},
 
             };
 
