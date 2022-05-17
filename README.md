@@ -1,4 +1,4 @@
-# Laboratorio_II_Parcial_1
+# Nombre del Repositorio: Laboratorio_II_Parcial_1
 
 # Nombre de la Solución: Brito.Eduard.2D.Parcial_1
 
