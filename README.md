@@ -21,6 +21,7 @@ de recargo al monto final.
 ## REQUERIMIENTOS DEL SISTEMA
 
 1. Administrar usuarios: debe poder diferenciar un empleado de un administrador.
+
   a. Empleado.
     i. El empleado deberá poder gestionar cada mesa y cobrar.
     ii. Deberá poder hacer una venta (cargar un pedido) a un cliente determinado siempre y cuando se den 
@@ -32,11 +33,13 @@ de recargo al monto final.
     iii. Agregar nuevos productos al inventario y rellenar el stock de mercadería nuevamente.
     
 2. Administrar el inventario:
+
   a. El sistema deberá poder informar a quien esté logueado como viene de provisiones
      el local. Debe tener alguna sección donde se pueda ver el estado del stock y se
      pueda notar de forma ágil que algún producto está por acabarse.
      
 3. Administrar ventas:
+
   a. El sistema deberá poder manejar por cliente cuánto llevan consumido hasta el
      momento.
   b. El sistema deberá ser capaz de cerrar la mesa y cobrar.
