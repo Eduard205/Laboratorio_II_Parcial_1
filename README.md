@@ -22,27 +22,27 @@ de recargo al monto final.
 
 1. Administrar usuarios: debe poder diferenciar un empleado de un administrador.
 
-  a. Empleado.
+  * a. Empleado.
     i. El empleado deberá poder gestionar cada mesa y cobrar.
     ii. Deberá poder hacer una venta (cargar un pedido) a un cliente determinado siempre y cuando se den 
     las condiciones de venta,por ej, que haya stock de ese producto que solicitó el cliente.
 
-  b. Administrador.
+  * b. Administrador.
     i. Deberá poder realizar las mismas tareas que el empleado.
     ii. Podrá acceder a ver la información de todos los empleados registrados en la aplicación.
     iii. Agregar nuevos productos al inventario y rellenar el stock de mercadería nuevamente.
     
 2. Administrar el inventario:
 
-  a. El sistema deberá poder informar a quien esté logueado como viene de provisiones
+  * a. El sistema deberá poder informar a quien esté logueado como viene de provisiones
      el local. Debe tener alguna sección donde se pueda ver el estado del stock y se
      pueda notar de forma ágil que algún producto está por acabarse.
      
 3. Administrar ventas:
 
-  a. El sistema deberá poder manejar por cliente cuánto llevan consumido hasta el
+  * a. El sistema deberá poder manejar por cliente cuánto llevan consumido hasta el
      momento.
-  b. El sistema deberá ser capaz de cerrar la mesa y cobrar.
+  * b. El sistema deberá ser capaz de cerrar la mesa y cobrar.
   
   ## CONCEPTOS DE OBJETOS UTILIZADOS PARA DESARROLLAR LA APLICACION:
   
