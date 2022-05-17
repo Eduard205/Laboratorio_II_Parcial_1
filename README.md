@@ -9,6 +9,7 @@
 El famoso bar LES UTN nos ha encomendado la tarea de diseñar un sistema en .NET utilizando
 Windows Forms que le ayude a administrar su negocio.
 El bar posee las siguientes características básicas:
+
 ● El bar posee 15 mesas numeradas del 1 al 15, y una barra con capacidad para 5 personas
 enumeradas del 16 en adelante. Por protocolo covid, las personas que vayan a la barra solo
 podrán consumir bebidas y no podrán ordenar platos, para no congestionar esa zona.
