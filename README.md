@@ -44,7 +44,7 @@ de recargo al monto final.
      momento.
   * b. El sistema deberá ser capaz de cerrar la mesa y cobrar.
   
-  ## CONCEPTOS DE OBJETOS UTILIZADOS PARA DESARROLLAR LA APLICACION:
+  ## Conceptos de objetos utilizados para desarrollar la aplicación:
   
   * Herencia
   * Sobrecarga de constructores y métodos
