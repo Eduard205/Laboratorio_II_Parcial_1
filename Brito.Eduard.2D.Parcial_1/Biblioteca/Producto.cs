@@ -28,10 +28,12 @@ namespace Biblioteca
 
             ultimoId++;
         }
+
         public float Precio
         {
             get { return precio; }
         }
+
         protected abstract int comprarProducto
         {
             set;
@@ -43,10 +45,12 @@ namespace Biblioteca
         {
             return p1.idProducto == id;
         }
+
         public static bool operator !=(Producto p1, int id)
         {
             return !(p1 == id);
         }
+
         public static Producto BuscarProducto(List<Producto> lista, int id)
         {
             foreach (Producto item in lista)

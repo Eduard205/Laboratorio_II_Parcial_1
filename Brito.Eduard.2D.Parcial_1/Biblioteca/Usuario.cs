@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Biblioteca
 {
-
     public enum ENivelAcceso
     {
         UsuarioCajero,
         UsuarioAdmin
     }
+
     public class Usuario
     {
         int idUsuario;
@@ -26,23 +26,26 @@ namespace Biblioteca
             this.password = password;
             this.nivelAcceso = nivelAcceso;
         }
+
         public int Dni 
         {
             get { return idUsuario; } 
         }
+
         public string Nombre 
         { 
             get { return nombre; }
         }
+
         public ENivelAcceso NivelAcceso 
         { 
             get { return nivelAcceso; } 
         }
+
         public bool ComprobarPassword(string datoIngresado)
         {
             return (!string.IsNullOrEmpty(datoIngresado) && datoIngresado.Trim() == password.Trim());
         }
-
 
     }
 }

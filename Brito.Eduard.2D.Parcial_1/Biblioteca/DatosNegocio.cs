@@ -23,6 +23,7 @@ namespace Biblioteca
                 new Usuario(35333999,"Florencia Perez","Caja123",ENivelAcceso.UsuarioAdmin),
             };
         }
+
         public static Usuario loguearUsuario(int idUsuario, string password)
         {
             foreach (Usuario item in listaUsuarios)
@@ -34,6 +35,7 @@ namespace Biblioteca
             }
             return null;
         }
+
         private static Dictionary<int, Mesa> InstanciarMesas()
         {
             return listaMesas = new Dictionary<int, Mesa>
@@ -67,8 +69,8 @@ namespace Biblioteca
                     new Bebida(nombre:"Quilmes", cantidadDisponible:50, precio:250, conAlcohol:true, EPresentacionBebida.LataChica)}))}},
 
             };
-
         }
+
         private static void InstanciarProductos()
         {
             inventario = new List<Producto>()
@@ -88,5 +90,21 @@ namespace Biblioteca
 
         }
 
+        public static string MostrarDatosMesa(int idMesa)
+        {
+            Mesa auxMesa = null;
+
+            foreach (KeyValuePair<int, Mesa> item in listaMesas)
+            {
+                if (listaMesas.ContainsKey(idMesa)== true)
+                    auxMesa = listaMesas[idMesa];
+            }
+
+            if (auxMesa is null)
+                return "Mesa no tiene datos";
+
+            return auxMesa.ToString();
+        }
+        
     }
 }

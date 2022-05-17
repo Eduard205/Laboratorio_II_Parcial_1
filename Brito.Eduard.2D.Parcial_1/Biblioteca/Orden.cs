@@ -16,6 +16,5 @@ namespace Biblioteca
             this.cantidad = cantidad;
             this.producto = producto;
         }
-
     }
 }

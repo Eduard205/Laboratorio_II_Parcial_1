@@ -23,10 +23,6 @@ namespace Formularios
 
         }
 
-      
-
-       
-
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(textUsuario.Text) || string.IsNullOrEmpty(textContrasenia.Text))
@@ -73,8 +69,6 @@ namespace Formularios
         {
             this.textUsuario.Text = "35333999";
             this.textContrasenia.Text = "Caja123";
-        }
-
-       
+        }      
     }
 }

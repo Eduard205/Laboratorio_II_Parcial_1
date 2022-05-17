@@ -26,6 +26,7 @@ namespace Biblioteca
             this.orden = orden;
             this.costo = CalcularCosto(orden);
         }
+
         public Cuenta()
         {
             cuentaCerrada = true;

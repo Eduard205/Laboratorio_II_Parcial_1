@@ -34,6 +34,7 @@ namespace Biblioteca
                 this.cantidadDisponible += value * 12;
             }
         }
+
         public override bool reponerProducto(int cantidad)
         {
             if (this.cantidadDisponible < 100 && cantidad > 0)
