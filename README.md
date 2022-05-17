@@ -55,4 +55,10 @@ de recargo al monto final.
   * Clases estáticas 
   * Polimorfismo (clases abstractas, métodos abstractos, métodos virtuales)
   
+  ## DIAGRAMA DE CLASES:
+  
+  ![image](https://user-images.githubusercontent.com/60559234/168914156-31611177-c581-4ff2-a023-87fa8bca239b.png)
+
+  ![image](https://user-images.githubusercontent.com/60559234/168913937-deba6e33-0cfc-4a70-8358-b770b7399ef6.png)
+
   
