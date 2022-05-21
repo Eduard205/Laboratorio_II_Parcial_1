@@ -23,17 +23,17 @@ namespace Formularios
 
         }
 
-        private void btnAceptar_Click(object sender, EventArgs e)
+        private void BtnAceptar_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(textUsuario.Text) || string.IsNullOrEmpty(textContrasenia.Text))
+            if (string.IsNullOrEmpty(TextUsuario.Text) || string.IsNullOrEmpty(TextContrasenia.Text))
             {
                 MessageBox.Show("Debe ingresar un usuario y contraseña");
             }
             else
             {
-                if (int.TryParse(textUsuario.Text, out int id))
+                if (int.TryParse(TextUsuario.Text, out int id))
                 {
-                    Usuario usuarioLogueado = DatosNegocio.loguearUsuario(id, textContrasenia.Text);
+                    Usuario usuarioLogueado = DatosNegocio.LoguearUsuario(id, TextContrasenia.Text);
 
                     if (usuarioLogueado is not null)
                     {
@@ -54,21 +54,21 @@ namespace Formularios
 
         }
 
-        private void btnCancelar_Click(object sender, EventArgs e)
+        private void BtnCancelar_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void btnEmpleado_Click(object sender, EventArgs e)
+        private void BtnEmpleado_Click(object sender, EventArgs e)
         {
-            this.textUsuario.Text = "95123456";
-            this.textContrasenia.Text = "Bar123";
+            this.TextUsuario.Text = "95123456";
+            this.TextContrasenia.Text = "Bar123";
         }
 
-        private void btnAdmin_Click(object sender, EventArgs e)
+        private void BtnAdmin_Click(object sender, EventArgs e)
         {
-            this.textUsuario.Text = "35333999";
-            this.textContrasenia.Text = "Caja123";
+            this.TextUsuario.Text = "35333999";
+            this.TextContrasenia.Text = "Caja123";
         }      
     }
 }

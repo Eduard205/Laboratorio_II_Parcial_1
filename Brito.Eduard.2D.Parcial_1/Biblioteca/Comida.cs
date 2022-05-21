@@ -34,16 +34,16 @@ namespace Biblioteca
             this.ingredientes = ingredientes;
         }
 
-        protected override int comprarProducto 
+        protected override int ComprarProducto 
         {
             set { cantidadDisponible += value; }
         }
 
-        public override bool reponerProducto(int cantidad)
+        public override bool ReponerProducto(int cantidad)
         {
             if (cantidad > 0)
             {
-                comprarProducto = cantidad;
+                ComprarProducto = cantidad;
                 return true;
             }
             return false;

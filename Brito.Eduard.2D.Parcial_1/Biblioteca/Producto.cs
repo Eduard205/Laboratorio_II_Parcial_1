@@ -34,12 +34,12 @@ namespace Biblioteca
             get { return precio; }
         }
 
-        protected abstract int comprarProducto
+        protected abstract int ComprarProducto
         {
             set;
         }
 
-        public abstract bool reponerProducto(int cantidad);
+        public abstract bool ReponerProducto(int cantidad);
 
         public static bool operator ==(Producto p1, int id)
         {

@@ -24,7 +24,7 @@ namespace Biblioteca
             };
         }
 
-        public static Usuario loguearUsuario(int idUsuario, string password)
+        public static Usuario LoguearUsuario(int idUsuario, string password)
         {
             foreach (Usuario item in listaUsuarios)
             {

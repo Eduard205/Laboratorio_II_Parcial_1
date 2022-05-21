@@ -34,34 +34,34 @@ namespace Formularios
 
         private void CargarMesas()
         {
-            botones.Add(1, this.btnMesa1);
-            botones.Add(2, this.btnMesa2);
-            botones.Add(3, this.btnMesa3);
-            botones.Add(4, this.btnMesa4);
-            botones.Add(5, this.btnMesa5);
-            botones.Add(6, this.btnMesa6);
-            botones.Add(7, this.btnMesa7);
-            botones.Add(8, this.btnMesa8);
-            botones.Add(9, this.btnMesa9);
-            botones.Add(10, this.btnMesa10);
-            botones.Add(11, this.btnMesa11);
-            botones.Add(12, this.btnMesa12);
-            botones.Add(13, this.btnMesa13);
-            botones.Add(14, this.btnMesa14);
-            botones.Add(15, this.btnMesa15);
-            botones.Add(16, this.btnBarra16);
-            botones.Add(17, this.btnBarra17);
-            botones.Add(18, this.btnBarra18);
-            botones.Add(19, this.btnBarra19);
-            botones.Add(20, this.btnBarra20);
+            botones.Add(1, this.BtnMesa1);
+            botones.Add(2, this.BtnMesa2);
+            botones.Add(3, this.BtnMesa3);
+            botones.Add(4, this.BtnMesa4);
+            botones.Add(5, this.BtnMesa5);
+            botones.Add(6, this.BtnMesa6);
+            botones.Add(7, this.BtnMesa7);
+            botones.Add(8, this.BtnMesa8);
+            botones.Add(9, this.BtnMesa9);
+            botones.Add(10, this.BtnMesa10);
+            botones.Add(11, this.BtnMesa11);
+            botones.Add(12, this.BtnMesa12);
+            botones.Add(13, this.BtnMesa13);
+            botones.Add(14, this.BtnMesa14);
+            botones.Add(15, this.BtnMesa15);
+            botones.Add(16, this.BtnBarra16);
+            botones.Add(17, this.BtnBarra17);
+            botones.Add(18, this.BtnBarra18);
+            botones.Add(19, this.BtnBarra19);
+            botones.Add(20, this.BtnBarra20);
         }
 
-        private void datosMesa(string datos)
+        private void DatosMesa(string datos)
         {
             MessageBox.Show(datos);
         }
 
-        private void btn_mesa_Click(object sender, EventArgs e)
+        private void BtnMesa_Click(object sender, EventArgs e)
         {
             Button auxBtn = (Button)sender;
 
@@ -69,12 +69,12 @@ namespace Formularios
             {
                 if (item.Value == auxBtn)
                 {
-                    datosMesa(DatosNegocio.MostrarDatosMesa(item.Key));
+                    DatosMesa(DatosNegocio.MostrarDatosMesa(item.Key));
                 }
             }
         }
 
-        private void btnSalir_Click(object sender, EventArgs e)
+        private void BtnSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }

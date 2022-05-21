@@ -29,273 +29,273 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMenuPrincipal));
-            this.btnMesa1 = new System.Windows.Forms.Button();
-            this.btnMesa2 = new System.Windows.Forms.Button();
-            this.btnMesa3 = new System.Windows.Forms.Button();
-            this.btnMesa14 = new System.Windows.Forms.Button();
-            this.btnMesa11 = new System.Windows.Forms.Button();
-            this.btnMesa12 = new System.Windows.Forms.Button();
-            this.btnMesa13 = new System.Windows.Forms.Button();
-            this.btnMesa4 = new System.Windows.Forms.Button();
-            this.btnBarra20 = new System.Windows.Forms.Button();
-            this.btnMesa10 = new System.Windows.Forms.Button();
-            this.btnBarra19 = new System.Windows.Forms.Button();
-            this.btnMesa9 = new System.Windows.Forms.Button();
-            this.btnBarra18 = new System.Windows.Forms.Button();
-            this.btnMesa8 = new System.Windows.Forms.Button();
-            this.btnBarra17 = new System.Windows.Forms.Button();
-            this.btnMesa7 = new System.Windows.Forms.Button();
-            this.btnBarra16 = new System.Windows.Forms.Button();
-            this.btnMesa6 = new System.Windows.Forms.Button();
-            this.btnMesa15 = new System.Windows.Forms.Button();
-            this.btnMesa5 = new System.Windows.Forms.Button();
-            this.labMenuPrincipal = new System.Windows.Forms.Label();
-            this.btnSalir = new System.Windows.Forms.Button();
+            this.BtnMesa1 = new System.Windows.Forms.Button();
+            this.BtnMesa2 = new System.Windows.Forms.Button();
+            this.BtnMesa3 = new System.Windows.Forms.Button();
+            this.BtnMesa14 = new System.Windows.Forms.Button();
+            this.BtnMesa11 = new System.Windows.Forms.Button();
+            this.BtnMesa12 = new System.Windows.Forms.Button();
+            this.BtnMesa13 = new System.Windows.Forms.Button();
+            this.BtnMesa4 = new System.Windows.Forms.Button();
+            this.BtnBarra20 = new System.Windows.Forms.Button();
+            this.BtnMesa10 = new System.Windows.Forms.Button();
+            this.BtnBarra19 = new System.Windows.Forms.Button();
+            this.BtnMesa9 = new System.Windows.Forms.Button();
+            this.BtnBarra18 = new System.Windows.Forms.Button();
+            this.BtnMesa8 = new System.Windows.Forms.Button();
+            this.BtnBarra17 = new System.Windows.Forms.Button();
+            this.BtnMesa7 = new System.Windows.Forms.Button();
+            this.BtnBarra16 = new System.Windows.Forms.Button();
+            this.BtnMesa6 = new System.Windows.Forms.Button();
+            this.BtnMesa15 = new System.Windows.Forms.Button();
+            this.BtnMesa5 = new System.Windows.Forms.Button();
+            this.LabMenuPrincipal = new System.Windows.Forms.Label();
+            this.BtnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnMesa1
+            // BtnMesa1
             // 
-            this.btnMesa1.BackColor = System.Drawing.Color.Transparent;
-            this.btnMesa1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnMesa1.Location = new System.Drawing.Point(64, 71);
-            this.btnMesa1.Name = "btnMesa1";
-            this.btnMesa1.Size = new System.Drawing.Size(81, 27);
-            this.btnMesa1.TabIndex = 0;
-            this.btnMesa1.Text = "Mesa 1";
-            this.btnMesa1.UseVisualStyleBackColor = false;
-            this.btnMesa1.Click += new System.EventHandler(this.btn_mesa_Click);
+            this.BtnMesa1.BackColor = System.Drawing.Color.Transparent;
+            this.BtnMesa1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnMesa1.Location = new System.Drawing.Point(64, 71);
+            this.BtnMesa1.Name = "BtnMesa1";
+            this.BtnMesa1.Size = new System.Drawing.Size(81, 27);
+            this.BtnMesa1.TabIndex = 0;
+            this.BtnMesa1.Text = "Mesa 1";
+            this.BtnMesa1.UseVisualStyleBackColor = false;
+            this.BtnMesa1.Click += new System.EventHandler(this.BtnMesa_Click);
             // 
-            // btnMesa2
+            // BtnMesa2
             // 
-            this.btnMesa2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnMesa2.Location = new System.Drawing.Point(64, 104);
-            this.btnMesa2.Name = "btnMesa2";
-            this.btnMesa2.Size = new System.Drawing.Size(81, 27);
-            this.btnMesa2.TabIndex = 1;
-            this.btnMesa2.Text = "Mesa 2";
-            this.btnMesa2.UseVisualStyleBackColor = true;
-            this.btnMesa2.Click += new System.EventHandler(this.btn_mesa_Click);
+            this.BtnMesa2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnMesa2.Location = new System.Drawing.Point(64, 104);
+            this.BtnMesa2.Name = "BtnMesa2";
+            this.BtnMesa2.Size = new System.Drawing.Size(81, 27);
+            this.BtnMesa2.TabIndex = 1;
+            this.BtnMesa2.Text = "Mesa 2";
+            this.BtnMesa2.UseVisualStyleBackColor = true;
+            this.BtnMesa2.Click += new System.EventHandler(this.BtnMesa_Click);
             // 
-            // btnMesa3
+            // BtnMesa3
             // 
-            this.btnMesa3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnMesa3.Location = new System.Drawing.Point(64, 137);
-            this.btnMesa3.Name = "btnMesa3";
-            this.btnMesa3.Size = new System.Drawing.Size(81, 27);
-            this.btnMesa3.TabIndex = 2;
-            this.btnMesa3.Text = "Mesa 3";
-            this.btnMesa3.UseVisualStyleBackColor = true;
-            this.btnMesa3.Click += new System.EventHandler(this.btn_mesa_Click);
+            this.BtnMesa3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnMesa3.Location = new System.Drawing.Point(64, 137);
+            this.BtnMesa3.Name = "BtnMesa3";
+            this.BtnMesa3.Size = new System.Drawing.Size(81, 27);
+            this.BtnMesa3.TabIndex = 2;
+            this.BtnMesa3.Text = "Mesa 3";
+            this.BtnMesa3.UseVisualStyleBackColor = true;
+            this.BtnMesa3.Click += new System.EventHandler(this.BtnMesa_Click);
             // 
-            // btnMesa14
+            // BtnMesa14
             // 
-            this.btnMesa14.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnMesa14.Location = new System.Drawing.Point(180, 170);
-            this.btnMesa14.Name = "btnMesa14";
-            this.btnMesa14.Size = new System.Drawing.Size(81, 27);
-            this.btnMesa14.TabIndex = 3;
-            this.btnMesa14.Text = "Mesa 14";
-            this.btnMesa14.UseVisualStyleBackColor = true;
-            this.btnMesa14.Click += new System.EventHandler(this.btn_mesa_Click);
+            this.BtnMesa14.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnMesa14.Location = new System.Drawing.Point(180, 170);
+            this.BtnMesa14.Name = "BtnMesa14";
+            this.BtnMesa14.Size = new System.Drawing.Size(81, 27);
+            this.BtnMesa14.TabIndex = 3;
+            this.BtnMesa14.Text = "Mesa 14";
+            this.BtnMesa14.UseVisualStyleBackColor = true;
+            this.BtnMesa14.Click += new System.EventHandler(this.BtnMesa_Click);
             // 
-            // btnMesa11
+            // BtnMesa11
             // 
-            this.btnMesa11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnMesa11.Location = new System.Drawing.Point(180, 71);
-            this.btnMesa11.Name = "btnMesa11";
-            this.btnMesa11.Size = new System.Drawing.Size(81, 27);
-            this.btnMesa11.TabIndex = 4;
-            this.btnMesa11.Text = "Mesa 11";
-            this.btnMesa11.UseVisualStyleBackColor = true;
-            this.btnMesa11.Click += new System.EventHandler(this.btn_mesa_Click);
+            this.BtnMesa11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnMesa11.Location = new System.Drawing.Point(180, 71);
+            this.BtnMesa11.Name = "BtnMesa11";
+            this.BtnMesa11.Size = new System.Drawing.Size(81, 27);
+            this.BtnMesa11.TabIndex = 4;
+            this.BtnMesa11.Text = "Mesa 11";
+            this.BtnMesa11.UseVisualStyleBackColor = true;
+            this.BtnMesa11.Click += new System.EventHandler(this.BtnMesa_Click);
             // 
-            // btnMesa12
+            // BtnMesa12
             // 
-            this.btnMesa12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnMesa12.Location = new System.Drawing.Point(180, 104);
-            this.btnMesa12.Name = "btnMesa12";
-            this.btnMesa12.Size = new System.Drawing.Size(81, 27);
-            this.btnMesa12.TabIndex = 5;
-            this.btnMesa12.Text = "Mesa 12";
-            this.btnMesa12.UseVisualStyleBackColor = true;
-            this.btnMesa12.Click += new System.EventHandler(this.btn_mesa_Click);
+            this.BtnMesa12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnMesa12.Location = new System.Drawing.Point(180, 104);
+            this.BtnMesa12.Name = "BtnMesa12";
+            this.BtnMesa12.Size = new System.Drawing.Size(81, 27);
+            this.BtnMesa12.TabIndex = 5;
+            this.BtnMesa12.Text = "Mesa 12";
+            this.BtnMesa12.UseVisualStyleBackColor = true;
+            this.BtnMesa12.Click += new System.EventHandler(this.BtnMesa_Click);
             // 
-            // btnMesa13
+            // BtnMesa13
             // 
-            this.btnMesa13.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnMesa13.Location = new System.Drawing.Point(180, 137);
-            this.btnMesa13.Name = "btnMesa13";
-            this.btnMesa13.Size = new System.Drawing.Size(81, 27);
-            this.btnMesa13.TabIndex = 6;
-            this.btnMesa13.Text = "Mesa 13";
-            this.btnMesa13.UseVisualStyleBackColor = true;
-            this.btnMesa13.Click += new System.EventHandler(this.btn_mesa_Click);
+            this.BtnMesa13.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnMesa13.Location = new System.Drawing.Point(180, 137);
+            this.BtnMesa13.Name = "BtnMesa13";
+            this.BtnMesa13.Size = new System.Drawing.Size(81, 27);
+            this.BtnMesa13.TabIndex = 6;
+            this.BtnMesa13.Text = "Mesa 13";
+            this.BtnMesa13.UseVisualStyleBackColor = true;
+            this.BtnMesa13.Click += new System.EventHandler(this.BtnMesa_Click);
             // 
-            // btnMesa4
+            // BtnMesa4
             // 
-            this.btnMesa4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnMesa4.Location = new System.Drawing.Point(64, 170);
-            this.btnMesa4.Name = "btnMesa4";
-            this.btnMesa4.Size = new System.Drawing.Size(81, 27);
-            this.btnMesa4.TabIndex = 7;
-            this.btnMesa4.Text = "Mesa 4";
-            this.btnMesa4.UseVisualStyleBackColor = true;
-            this.btnMesa4.Click += new System.EventHandler(this.btn_mesa_Click);
+            this.BtnMesa4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnMesa4.Location = new System.Drawing.Point(64, 170);
+            this.BtnMesa4.Name = "BtnMesa4";
+            this.BtnMesa4.Size = new System.Drawing.Size(81, 27);
+            this.BtnMesa4.TabIndex = 7;
+            this.BtnMesa4.Text = "Mesa 4";
+            this.BtnMesa4.UseVisualStyleBackColor = true;
+            this.BtnMesa4.Click += new System.EventHandler(this.BtnMesa_Click);
             // 
-            // btnBarra20
+            // BtnBarra20
             // 
-            this.btnBarra20.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnBarra20.Location = new System.Drawing.Point(180, 368);
-            this.btnBarra20.Name = "btnBarra20";
-            this.btnBarra20.Size = new System.Drawing.Size(81, 27);
-            this.btnBarra20.TabIndex = 8;
-            this.btnBarra20.Text = "Barra 20";
-            this.btnBarra20.UseVisualStyleBackColor = true;
-            this.btnBarra20.Click += new System.EventHandler(this.btn_mesa_Click);
+            this.BtnBarra20.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnBarra20.Location = new System.Drawing.Point(180, 368);
+            this.BtnBarra20.Name = "BtnBarra20";
+            this.BtnBarra20.Size = new System.Drawing.Size(81, 27);
+            this.BtnBarra20.TabIndex = 8;
+            this.BtnBarra20.Text = "Barra 20";
+            this.BtnBarra20.UseVisualStyleBackColor = true;
+            this.BtnBarra20.Click += new System.EventHandler(this.BtnMesa_Click);
             // 
-            // btnMesa10
+            // BtnMesa10
             // 
-            this.btnMesa10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnMesa10.Location = new System.Drawing.Point(64, 368);
-            this.btnMesa10.Name = "btnMesa10";
-            this.btnMesa10.Size = new System.Drawing.Size(81, 27);
-            this.btnMesa10.TabIndex = 9;
-            this.btnMesa10.Text = "Mesa 10";
-            this.btnMesa10.UseVisualStyleBackColor = true;
-            this.btnMesa10.Click += new System.EventHandler(this.btn_mesa_Click);
+            this.BtnMesa10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnMesa10.Location = new System.Drawing.Point(64, 368);
+            this.BtnMesa10.Name = "BtnMesa10";
+            this.BtnMesa10.Size = new System.Drawing.Size(81, 27);
+            this.BtnMesa10.TabIndex = 9;
+            this.BtnMesa10.Text = "Mesa 10";
+            this.BtnMesa10.UseVisualStyleBackColor = true;
+            this.BtnMesa10.Click += new System.EventHandler(this.BtnMesa_Click);
             // 
-            // btnBarra19
+            // BtnBarra19
             // 
-            this.btnBarra19.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnBarra19.Location = new System.Drawing.Point(180, 335);
-            this.btnBarra19.Name = "btnBarra19";
-            this.btnBarra19.Size = new System.Drawing.Size(81, 27);
-            this.btnBarra19.TabIndex = 10;
-            this.btnBarra19.Text = "Barra 19";
-            this.btnBarra19.UseVisualStyleBackColor = true;
-            this.btnBarra19.Click += new System.EventHandler(this.btn_mesa_Click);
+            this.BtnBarra19.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnBarra19.Location = new System.Drawing.Point(180, 335);
+            this.BtnBarra19.Name = "BtnBarra19";
+            this.BtnBarra19.Size = new System.Drawing.Size(81, 27);
+            this.BtnBarra19.TabIndex = 10;
+            this.BtnBarra19.Text = "Barra 19";
+            this.BtnBarra19.UseVisualStyleBackColor = true;
+            this.BtnBarra19.Click += new System.EventHandler(this.BtnMesa_Click);
             // 
-            // btnMesa9
+            // BtnMesa9
             // 
-            this.btnMesa9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnMesa9.Location = new System.Drawing.Point(64, 335);
-            this.btnMesa9.Name = "btnMesa9";
-            this.btnMesa9.Size = new System.Drawing.Size(81, 27);
-            this.btnMesa9.TabIndex = 11;
-            this.btnMesa9.Text = "Mesa 9";
-            this.btnMesa9.UseVisualStyleBackColor = true;
-            this.btnMesa9.Click += new System.EventHandler(this.btn_mesa_Click);
+            this.BtnMesa9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnMesa9.Location = new System.Drawing.Point(64, 335);
+            this.BtnMesa9.Name = "BtnMesa9";
+            this.BtnMesa9.Size = new System.Drawing.Size(81, 27);
+            this.BtnMesa9.TabIndex = 11;
+            this.BtnMesa9.Text = "Mesa 9";
+            this.BtnMesa9.UseVisualStyleBackColor = true;
+            this.BtnMesa9.Click += new System.EventHandler(this.BtnMesa_Click);
             // 
-            // btnBarra18
+            // BtnBarra18
             // 
-            this.btnBarra18.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnBarra18.Location = new System.Drawing.Point(180, 302);
-            this.btnBarra18.Name = "btnBarra18";
-            this.btnBarra18.Size = new System.Drawing.Size(81, 27);
-            this.btnBarra18.TabIndex = 12;
-            this.btnBarra18.Text = "Barra 18";
-            this.btnBarra18.UseVisualStyleBackColor = true;
-            this.btnBarra18.Click += new System.EventHandler(this.btn_mesa_Click);
+            this.BtnBarra18.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnBarra18.Location = new System.Drawing.Point(180, 302);
+            this.BtnBarra18.Name = "BtnBarra18";
+            this.BtnBarra18.Size = new System.Drawing.Size(81, 27);
+            this.BtnBarra18.TabIndex = 12;
+            this.BtnBarra18.Text = "Barra 18";
+            this.BtnBarra18.UseVisualStyleBackColor = true;
+            this.BtnBarra18.Click += new System.EventHandler(this.BtnMesa_Click);
             // 
-            // btnMesa8
+            // BtnMesa8
             // 
-            this.btnMesa8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnMesa8.Location = new System.Drawing.Point(64, 302);
-            this.btnMesa8.Name = "btnMesa8";
-            this.btnMesa8.Size = new System.Drawing.Size(81, 27);
-            this.btnMesa8.TabIndex = 13;
-            this.btnMesa8.Text = "Mesa 8";
-            this.btnMesa8.UseVisualStyleBackColor = true;
-            this.btnMesa8.Click += new System.EventHandler(this.btn_mesa_Click);
+            this.BtnMesa8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnMesa8.Location = new System.Drawing.Point(64, 302);
+            this.BtnMesa8.Name = "BtnMesa8";
+            this.BtnMesa8.Size = new System.Drawing.Size(81, 27);
+            this.BtnMesa8.TabIndex = 13;
+            this.BtnMesa8.Text = "Mesa 8";
+            this.BtnMesa8.UseVisualStyleBackColor = true;
+            this.BtnMesa8.Click += new System.EventHandler(this.BtnMesa_Click);
             // 
-            // btnBarra17
+            // BtnBarra17
             // 
-            this.btnBarra17.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnBarra17.Location = new System.Drawing.Point(180, 269);
-            this.btnBarra17.Name = "btnBarra17";
-            this.btnBarra17.Size = new System.Drawing.Size(81, 27);
-            this.btnBarra17.TabIndex = 14;
-            this.btnBarra17.Text = "Barra 17";
-            this.btnBarra17.UseVisualStyleBackColor = true;
-            this.btnBarra17.Click += new System.EventHandler(this.btn_mesa_Click);
+            this.BtnBarra17.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnBarra17.Location = new System.Drawing.Point(180, 269);
+            this.BtnBarra17.Name = "BtnBarra17";
+            this.BtnBarra17.Size = new System.Drawing.Size(81, 27);
+            this.BtnBarra17.TabIndex = 14;
+            this.BtnBarra17.Text = "Barra 17";
+            this.BtnBarra17.UseVisualStyleBackColor = true;
+            this.BtnBarra17.Click += new System.EventHandler(this.BtnMesa_Click);
             // 
-            // btnMesa7
+            // BtnMesa7
             // 
-            this.btnMesa7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnMesa7.Location = new System.Drawing.Point(64, 269);
-            this.btnMesa7.Name = "btnMesa7";
-            this.btnMesa7.Size = new System.Drawing.Size(81, 27);
-            this.btnMesa7.TabIndex = 15;
-            this.btnMesa7.Text = "Mesa 7";
-            this.btnMesa7.UseVisualStyleBackColor = true;
-            this.btnMesa7.Click += new System.EventHandler(this.btn_mesa_Click);
+            this.BtnMesa7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnMesa7.Location = new System.Drawing.Point(64, 269);
+            this.BtnMesa7.Name = "BtnMesa7";
+            this.BtnMesa7.Size = new System.Drawing.Size(81, 27);
+            this.BtnMesa7.TabIndex = 15;
+            this.BtnMesa7.Text = "Mesa 7";
+            this.BtnMesa7.UseVisualStyleBackColor = true;
+            this.BtnMesa7.Click += new System.EventHandler(this.BtnMesa_Click);
             // 
-            // btnBarra16
+            // BtnBarra16
             // 
-            this.btnBarra16.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnBarra16.Location = new System.Drawing.Point(180, 236);
-            this.btnBarra16.Name = "btnBarra16";
-            this.btnBarra16.Size = new System.Drawing.Size(81, 27);
-            this.btnBarra16.TabIndex = 16;
-            this.btnBarra16.Text = "Barra 16";
-            this.btnBarra16.UseVisualStyleBackColor = true;
-            this.btnBarra16.Click += new System.EventHandler(this.btn_mesa_Click);
+            this.BtnBarra16.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnBarra16.Location = new System.Drawing.Point(180, 236);
+            this.BtnBarra16.Name = "BtnBarra16";
+            this.BtnBarra16.Size = new System.Drawing.Size(81, 27);
+            this.BtnBarra16.TabIndex = 16;
+            this.BtnBarra16.Text = "Barra 16";
+            this.BtnBarra16.UseVisualStyleBackColor = true;
+            this.BtnBarra16.Click += new System.EventHandler(this.BtnMesa_Click);
             // 
-            // btnMesa6
+            // BtnMesa6
             // 
-            this.btnMesa6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnMesa6.Location = new System.Drawing.Point(64, 236);
-            this.btnMesa6.Name = "btnMesa6";
-            this.btnMesa6.Size = new System.Drawing.Size(81, 27);
-            this.btnMesa6.TabIndex = 17;
-            this.btnMesa6.Text = "Mesa 6";
-            this.btnMesa6.UseVisualStyleBackColor = true;
-            this.btnMesa6.Click += new System.EventHandler(this.btn_mesa_Click);
+            this.BtnMesa6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnMesa6.Location = new System.Drawing.Point(64, 236);
+            this.BtnMesa6.Name = "BtnMesa6";
+            this.BtnMesa6.Size = new System.Drawing.Size(81, 27);
+            this.BtnMesa6.TabIndex = 17;
+            this.BtnMesa6.Text = "Mesa 6";
+            this.BtnMesa6.UseVisualStyleBackColor = true;
+            this.BtnMesa6.Click += new System.EventHandler(this.BtnMesa_Click);
             // 
-            // btnMesa15
+            // BtnMesa15
             // 
-            this.btnMesa15.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnMesa15.Location = new System.Drawing.Point(180, 203);
-            this.btnMesa15.Name = "btnMesa15";
-            this.btnMesa15.Size = new System.Drawing.Size(81, 27);
-            this.btnMesa15.TabIndex = 18;
-            this.btnMesa15.Text = "Mesa 15";
-            this.btnMesa15.UseVisualStyleBackColor = true;
-            this.btnMesa15.Click += new System.EventHandler(this.btn_mesa_Click);
+            this.BtnMesa15.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnMesa15.Location = new System.Drawing.Point(180, 203);
+            this.BtnMesa15.Name = "BtnMesa15";
+            this.BtnMesa15.Size = new System.Drawing.Size(81, 27);
+            this.BtnMesa15.TabIndex = 18;
+            this.BtnMesa15.Text = "Mesa 15";
+            this.BtnMesa15.UseVisualStyleBackColor = true;
+            this.BtnMesa15.Click += new System.EventHandler(this.BtnMesa_Click);
             // 
-            // btnMesa5
+            // BtnMesa5
             // 
-            this.btnMesa5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnMesa5.Location = new System.Drawing.Point(64, 203);
-            this.btnMesa5.Name = "btnMesa5";
-            this.btnMesa5.Size = new System.Drawing.Size(81, 27);
-            this.btnMesa5.TabIndex = 19;
-            this.btnMesa5.Text = "Mesa 5";
-            this.btnMesa5.UseVisualStyleBackColor = true;
-            this.btnMesa5.Click += new System.EventHandler(this.btn_mesa_Click);
+            this.BtnMesa5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnMesa5.Location = new System.Drawing.Point(64, 203);
+            this.BtnMesa5.Name = "BtnMesa5";
+            this.BtnMesa5.Size = new System.Drawing.Size(81, 27);
+            this.BtnMesa5.TabIndex = 19;
+            this.BtnMesa5.Text = "Mesa 5";
+            this.BtnMesa5.UseVisualStyleBackColor = true;
+            this.BtnMesa5.Click += new System.EventHandler(this.BtnMesa_Click);
             // 
-            // labMenuPrincipal
+            // LabMenuPrincipal
             // 
-            this.labMenuPrincipal.AutoSize = true;
-            this.labMenuPrincipal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.labMenuPrincipal.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labMenuPrincipal.Location = new System.Drawing.Point(207, 9);
-            this.labMenuPrincipal.Name = "labMenuPrincipal";
-            this.labMenuPrincipal.Size = new System.Drawing.Size(341, 39);
-            this.labMenuPrincipal.TabIndex = 20;
-            this.labMenuPrincipal.Text = "MENU PRINCIPAL";
+            this.LabMenuPrincipal.AutoSize = true;
+            this.LabMenuPrincipal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.LabMenuPrincipal.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LabMenuPrincipal.Location = new System.Drawing.Point(207, 9);
+            this.LabMenuPrincipal.Name = "LabMenuPrincipal";
+            this.LabMenuPrincipal.Size = new System.Drawing.Size(341, 39);
+            this.LabMenuPrincipal.TabIndex = 20;
+            this.LabMenuPrincipal.Text = "MENU PRINCIPAL";
             // 
-            // btnSalir
+            // BtnSalir
             // 
-            this.btnSalir.BackColor = System.Drawing.Color.Crimson;
-            this.btnSalir.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSalir.Location = new System.Drawing.Point(713, 12);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(75, 27);
-            this.btnSalir.TabIndex = 21;
-            this.btnSalir.Text = "SALIR";
-            this.btnSalir.UseVisualStyleBackColor = false;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            this.BtnSalir.BackColor = System.Drawing.Color.Crimson;
+            this.BtnSalir.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnSalir.Location = new System.Drawing.Point(713, 12);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(75, 27);
+            this.BtnSalir.TabIndex = 21;
+            this.BtnSalir.Text = "SALIR";
+            this.BtnSalir.UseVisualStyleBackColor = false;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // FormMenuPrincipal
             // 
@@ -303,28 +303,28 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Goldenrod;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.labMenuPrincipal);
-            this.Controls.Add(this.btnMesa5);
-            this.Controls.Add(this.btnMesa15);
-            this.Controls.Add(this.btnMesa6);
-            this.Controls.Add(this.btnBarra16);
-            this.Controls.Add(this.btnMesa7);
-            this.Controls.Add(this.btnBarra17);
-            this.Controls.Add(this.btnMesa8);
-            this.Controls.Add(this.btnBarra18);
-            this.Controls.Add(this.btnMesa9);
-            this.Controls.Add(this.btnBarra19);
-            this.Controls.Add(this.btnMesa10);
-            this.Controls.Add(this.btnBarra20);
-            this.Controls.Add(this.btnMesa4);
-            this.Controls.Add(this.btnMesa13);
-            this.Controls.Add(this.btnMesa12);
-            this.Controls.Add(this.btnMesa11);
-            this.Controls.Add(this.btnMesa14);
-            this.Controls.Add(this.btnMesa3);
-            this.Controls.Add(this.btnMesa2);
-            this.Controls.Add(this.btnMesa1);
+            this.Controls.Add(this.BtnSalir);
+            this.Controls.Add(this.LabMenuPrincipal);
+            this.Controls.Add(this.BtnMesa5);
+            this.Controls.Add(this.BtnMesa15);
+            this.Controls.Add(this.BtnMesa6);
+            this.Controls.Add(this.BtnBarra16);
+            this.Controls.Add(this.BtnMesa7);
+            this.Controls.Add(this.BtnBarra17);
+            this.Controls.Add(this.BtnMesa8);
+            this.Controls.Add(this.BtnBarra18);
+            this.Controls.Add(this.BtnMesa9);
+            this.Controls.Add(this.BtnBarra19);
+            this.Controls.Add(this.BtnMesa10);
+            this.Controls.Add(this.BtnBarra20);
+            this.Controls.Add(this.BtnMesa4);
+            this.Controls.Add(this.BtnMesa13);
+            this.Controls.Add(this.BtnMesa12);
+            this.Controls.Add(this.BtnMesa11);
+            this.Controls.Add(this.BtnMesa14);
+            this.Controls.Add(this.BtnMesa3);
+            this.Controls.Add(this.BtnMesa2);
+            this.Controls.Add(this.BtnMesa1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "FormMenuPrincipal";
@@ -338,27 +338,27 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnMesa1;
-        private System.Windows.Forms.Button btnMesa2;
-        private System.Windows.Forms.Button btnMesa3;
-        private System.Windows.Forms.Button btnMesa14;
-        private System.Windows.Forms.Button btnMesa11;
-        private System.Windows.Forms.Button btnMesa12;
-        private System.Windows.Forms.Button btnMesa13;
-        private System.Windows.Forms.Button btnMesa4;
-        private System.Windows.Forms.Button btnBarra20;
-        private System.Windows.Forms.Button btnMesa10;
-        private System.Windows.Forms.Button btnBarra19;
-        private System.Windows.Forms.Button btnMesa9;
-        private System.Windows.Forms.Button btnBarra18;
-        private System.Windows.Forms.Button btnMesa8;
-        private System.Windows.Forms.Button btnBarra17;
-        private System.Windows.Forms.Button btnMesa7;
-        private System.Windows.Forms.Button btnBarra16;
-        private System.Windows.Forms.Button btnMesa6;
-        private System.Windows.Forms.Button btnMesa15;
-        private System.Windows.Forms.Button btnMesa5;
-        private System.Windows.Forms.Label labMenuPrincipal;
-        private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Button BtnMesa1;
+        private System.Windows.Forms.Button BtnMesa2;
+        private System.Windows.Forms.Button BtnMesa3;
+        private System.Windows.Forms.Button BtnMesa14;
+        private System.Windows.Forms.Button BtnMesa11;
+        private System.Windows.Forms.Button BtnMesa12;
+        private System.Windows.Forms.Button BtnMesa13;
+        private System.Windows.Forms.Button BtnMesa4;
+        private System.Windows.Forms.Button BtnBarra20;
+        private System.Windows.Forms.Button BtnMesa10;
+        private System.Windows.Forms.Button BtnBarra19;
+        private System.Windows.Forms.Button BtnMesa9;
+        private System.Windows.Forms.Button BtnBarra18;
+        private System.Windows.Forms.Button BtnMesa8;
+        private System.Windows.Forms.Button BtnBarra17;
+        private System.Windows.Forms.Button BtnMesa7;
+        private System.Windows.Forms.Button BtnBarra16;
+        private System.Windows.Forms.Button BtnMesa6;
+        private System.Windows.Forms.Button BtnMesa15;
+        private System.Windows.Forms.Button BtnMesa5;
+        private System.Windows.Forms.Label LabMenuPrincipal;
+        private System.Windows.Forms.Button BtnSalir;
     }
 }

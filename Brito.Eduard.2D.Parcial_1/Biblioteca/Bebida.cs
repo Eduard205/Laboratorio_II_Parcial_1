@@ -27,7 +27,7 @@ namespace Biblioteca
             this.conAlcohol = conAlcohol;
         }
 
-        protected override int comprarProducto 
+        protected override int ComprarProducto 
         {
             set
             {
@@ -35,11 +35,11 @@ namespace Biblioteca
             }
         }
 
-        public override bool reponerProducto(int cantidad)
+        public override bool ReponerProducto(int cantidad)
         {
             if (this.cantidadDisponible < 100 && cantidad > 0)
             {
-                comprarProducto = cantidad;
+                ComprarProducto = cantidad;
                 return true;
             }
             return false;
