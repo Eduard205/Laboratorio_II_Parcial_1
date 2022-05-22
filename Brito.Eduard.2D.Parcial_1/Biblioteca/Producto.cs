@@ -16,7 +16,7 @@ namespace Biblioteca
         private float precio;
 
         static Producto()
-        {
+        {  
             ultimoId = 1;
         }
         protected Producto(string nombre, int cantidadDisponible, float precio)

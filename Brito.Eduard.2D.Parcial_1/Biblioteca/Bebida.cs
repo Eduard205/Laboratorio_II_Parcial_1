@@ -12,7 +12,7 @@ namespace Biblioteca
         LataGrande = 450,
         LataChica = 250,
         VasoPinta = 300,
-        coctel = 1000
+        Coctel = 1000
     }
     public class Bebida : Producto
     {

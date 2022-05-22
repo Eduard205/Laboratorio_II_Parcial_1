@@ -76,7 +76,7 @@ namespace Biblioteca
             inventario = new List<Producto>()
             {
               new Bebida(nombre:"Coca Cola", cantidadDisponible:100, precio:100, conAlcohol:false, EPresentacionBebida.LataChica),
-              new Bebida(nombre:"Mojito", cantidadDisponible:50, precio:700, conAlcohol:true, EPresentacionBebida.coctel),
+              new Bebida(nombre:"Mojito", cantidadDisponible:50, precio:700, conAlcohol:true, EPresentacionBebida.Coctel),
               new Bebida(nombre:"Quilmes", cantidadDisponible:100, precio:450, conAlcohol:true, EPresentacionBebida.BotellaLitro),
               new Bebida(nombre:"IPA", cantidadDisponible:50, precio:250, conAlcohol:true, EPresentacionBebida.VasoPinta),
 

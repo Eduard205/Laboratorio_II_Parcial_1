@@ -78,5 +78,12 @@ namespace Formularios
         {
             Application.Exit();
         }
+
+        private void BtnCargarOrden_Click(object sender, EventArgs e)
+        {
+            FormCargarOrden cargarOrden = new FormCargarOrden();
+            cargarOrden.Show();
+
+        }
     }
 }

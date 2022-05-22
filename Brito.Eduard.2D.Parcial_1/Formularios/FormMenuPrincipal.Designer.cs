@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMenuPrincipal));
             this.BtnMesa1 = new System.Windows.Forms.Button();
             this.BtnMesa2 = new System.Windows.Forms.Button();
@@ -51,6 +52,21 @@
             this.BtnMesa5 = new System.Windows.Forms.Button();
             this.LabMenuPrincipal = new System.Windows.Forms.Label();
             this.BtnSalir = new System.Windows.Forms.Button();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.BtnCargarOrden = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.bebidaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.comidaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bebidaBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.bebidaBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.comidaBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.contextMenuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bebidaBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comidaBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bebidaBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bebidaBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comidaBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // BtnMesa1
@@ -297,12 +313,70 @@
             this.BtnSalir.UseVisualStyleBackColor = false;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 26);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1.Text = "toolStripMenuItem1";
+            // 
+            // BtnCargarOrden
+            // 
+            this.BtnCargarOrden.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.BtnCargarOrden.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnCargarOrden.Location = new System.Drawing.Point(658, 90);
+            this.BtnCargarOrden.Name = "BtnCargarOrden";
+            this.BtnCargarOrden.Size = new System.Drawing.Size(98, 36);
+            this.BtnCargarOrden.TabIndex = 23;
+            this.BtnCargarOrden.Text = "Cargar Orden";
+            this.BtnCargarOrden.UseVisualStyleBackColor = false;
+            this.BtnCargarOrden.Click += new System.EventHandler(this.BtnCargarOrden_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightGreen;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(658, 137);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(98, 33);
+            this.button1.TabIndex = 24;
+            this.button1.Text = "Cobrar";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // bebidaBindingSource
+            // 
+            this.bebidaBindingSource.DataSource = typeof(Biblioteca.Bebida);
+            // 
+            // comidaBindingSource
+            // 
+            this.comidaBindingSource.DataSource = typeof(Biblioteca.Comida);
+            // 
+            // bebidaBindingSource1
+            // 
+            this.bebidaBindingSource1.DataSource = typeof(Biblioteca.Bebida);
+            // 
+            // bebidaBindingSource2
+            // 
+            this.bebidaBindingSource2.DataSource = typeof(Biblioteca.Bebida);
+            // 
+            // comidaBindingSource1
+            // 
+            this.comidaBindingSource1.DataSource = typeof(Biblioteca.Comida);
+            // 
             // FormMenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Goldenrod;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BtnCargarOrden);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.LabMenuPrincipal);
             this.Controls.Add(this.BtnMesa5);
@@ -331,6 +405,12 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bar LesUTN > Menu Principal";
             this.Load += new System.EventHandler(this.FormMenuPrincipal_Load);
+            this.contextMenuStrip1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bebidaBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comidaBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bebidaBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bebidaBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comidaBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -360,5 +440,14 @@
         private System.Windows.Forms.Button BtnMesa5;
         private System.Windows.Forms.Label LabMenuPrincipal;
         private System.Windows.Forms.Button BtnSalir;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.Button BtnCargarOrden;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.BindingSource comidaBindingSource;
+        private System.Windows.Forms.BindingSource bebidaBindingSource;
+        private System.Windows.Forms.BindingSource bebidaBindingSource1;
+        private System.Windows.Forms.BindingSource bebidaBindingSource2;
+        private System.Windows.Forms.BindingSource comidaBindingSource1;
     }
 }

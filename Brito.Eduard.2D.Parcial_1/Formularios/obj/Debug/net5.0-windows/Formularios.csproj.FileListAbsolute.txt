@@ -20,3 +20,4 @@ C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parc
 C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Formularios\obj\Debug\net5.0-windows\Formularios.pdb
 C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Formularios\obj\Debug\net5.0-windows\Formularios.genruntimeconfig.cache
 C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Formularios\obj\Debug\net5.0-windows\ref\Formularios.dll
+C:\Users\eduar\OneDrive\Documentos\Laboratorio_II_Parcial_1\Brito.Eduard.2D.Parcial_1\Formularios\obj\Debug\net5.0-windows\Formularios.FormCargarOrden.resources
