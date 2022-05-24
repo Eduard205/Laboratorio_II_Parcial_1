@@ -46,7 +46,7 @@ de recargo al monto final.
   
   ## Conceptos de objetos utilizados para desarrollar la aplicación:
   
-  * Herencia: se aplica en la clase Producto (clase base) y las clases Comida (clase derivada) y Bebida (clase derivaba).
+  * Herencia: se aplica en la clase Producto (clase base) con las clases Comida (clase derivada) y Bebida (clase derivaba).
   * Sobrecarga de constructores y métodos: En la clase Cuenta, Mesa, Producto.
   * Propiedades: En las clases Cuenta, Mesa, Producto, Usuario.
   * Colecciones: En la clase DatosNegocio.
