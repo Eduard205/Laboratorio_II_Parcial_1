@@ -46,14 +46,14 @@ de recargo al monto final.
   
   ## Conceptos de objetos utilizados para desarrollar la aplicación:
   
-  * Herencia
-  * Sobrecarga de constructores y métodos
-  * Propiedades
-  * Colecciones
-  * Enumerados
-  * Formularios modal.
-  * Clases estáticas 
-  * Polimorfismo (clases abstractas, métodos abstractos, métodos virtuales)
+  * Herencia: se aplica en la clase Producto (clase base) y las clases Comida (clase derivada) y Bebida (clase derivaba).
+  * Sobrecarga de constructores y métodos: En la clase Cuenta, Mesa, Producto.
+  * Propiedades: En las clases Cuenta, Mesa, Producto, Usuario.
+  * Colecciones: En la clase DatosNegocio.
+  * Enumerados: En la clase Comida y Bebida.
+  * Formularios modal: En los Formularios Login y MenuPrincipal
+  * Clases estáticas: En la clase DatosNegocio
+  * Polimorfismo (clases abstractas, métodos abstractos, métodos virtuales): En la clase abstracta Producto y en las clases Comida y Bebida (derivadas).
   
   ## Diagrama de Clases:
   
