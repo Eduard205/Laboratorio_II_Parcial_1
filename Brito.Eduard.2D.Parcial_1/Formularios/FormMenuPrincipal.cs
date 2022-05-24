@@ -28,10 +28,6 @@ namespace Formularios
             usuarioLogueado = usuario;
         }
 
-        private void FormMenuPrincipal_Load(object sender, EventArgs e)
-        {      
-        }
-
         private void CargarMesas()
         {
             botones.Add(1, this.BtnMesa1);

@@ -3,7 +3,7 @@
   <Class Name="Biblioteca.Bebida">
     <Position X="3.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAQAAAAAAAgAAAAAAQAAA=</HashCode>
+      <HashCode>ABAAAAAAAAAAAAAAAQAAAAAAQAAAAAAAgAAAAAAAAAA=</HashCode>
       <FileName>Bebida.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -17,7 +17,7 @@
   <Class Name="Biblioteca.Comida">
     <Position X="4" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAgAAAAAAAAAQAAA=</HashCode>
+      <HashCode>ABAAAAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
       <FileName>Comida.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -31,7 +31,7 @@
   <Class Name="Biblioteca.DatosNegocio" Collapsed="true">
     <Position X="9.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AABAAAAAAAgAAAAAAAAACAAAAAAAAAAAEAAIhAAAABA=</HashCode>
+      <HashCode>AAAAAAAAQAgAAAAAAAAACAAAAAAAAAAAEAAIhAAAABA=</HashCode>
       <FileName>DatosNegocio.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -42,17 +42,10 @@
       <FileName>Mesa.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Biblioteca.Orden" Collapsed="true">
-    <Position X="8" Y="1.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AQAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Orden.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Biblioteca.Producto">
     <Position X="1.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AgAAAAAAAgAgAACAAAAAAAEQAQAAEAAAAAAAAAAQAiA=</HashCode>
+      <HashCode>AhAAAAAAAgAgAACAAQAAAAAQAQAAEAAAAAAAAAAAAiA=</HashCode>
       <FileName>Producto.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -63,17 +56,24 @@
       <FileName>Usuario.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Biblioteca.Orden" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAABAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Orden.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Enum Name="Biblioteca.EPresentacionBebida">
     <Position X="9.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAABgAAAAAAAAAAAAAACAAAAAAgAAAAAAAIAAA=</HashCode>
+      <HashCode>AAAAAAAABgAAAAAAAAAAAAAACCAAAAAAAAAAAAAIAAA=</HashCode>
       <FileName>Bebida.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="Biblioteca.EIngredientes">
     <Position X="6.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>EAAAAABgCAAABkACBAAAQAAAAAAAAAAQAEAABAAAAAI=</HashCode>
+      <HashCode>EAAAAABgCAAABkACBAAAQAAAABAAAAAAAEAABgAAAAA=</HashCode>
       <FileName>Comida.cs</FileName>
     </TypeIdentifier>
   </Enum>

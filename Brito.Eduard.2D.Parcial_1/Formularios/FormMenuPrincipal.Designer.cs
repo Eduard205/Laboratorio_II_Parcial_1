@@ -404,7 +404,6 @@
             this.Name = "FormMenuPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bar LesUTN > Menu Principal";
-            this.Load += new System.EventHandler(this.FormMenuPrincipal_Load);
             this.contextMenuStrip1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bebidaBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comidaBindingSource)).EndInit();

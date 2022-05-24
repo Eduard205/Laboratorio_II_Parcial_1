@@ -57,6 +57,7 @@
             this.CBoxNombreComida = new System.Windows.Forms.ComboBox();
             this.CBoxNombreBebida = new System.Windows.Forms.ComboBox();
             this.BtnVolverMenuPrincipal = new System.Windows.Forms.Button();
+            this.BtnCargarOrden = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridAgregarProductos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,7 +66,7 @@
             this.TextCantidad.Location = new System.Drawing.Point(434, 19);
             this.TextCantidad.Name = "TextCantidad";
             this.TextCantidad.Size = new System.Drawing.Size(39, 23);
-            this.TextCantidad.TabIndex = 0;
+            this.TextCantidad.TabIndex = 3;
             // 
             // LabCantidad
             // 
@@ -95,7 +96,6 @@
             this.CheckedListBoxProducto.Name = "CheckedListBoxProducto";
             this.CheckedListBoxProducto.Size = new System.Drawing.Size(71, 40);
             this.CheckedListBoxProducto.TabIndex = 4;
-            this.CheckedListBoxProducto.SelectedIndexChanged += new System.EventHandler(this.CheckedListBoxProducto_SelectedIndexChanged);
             // 
             // CBoxEPresentacionBebida
             // 
@@ -105,8 +105,7 @@
             this.CBoxEPresentacionBebida.Location = new System.Drawing.Point(638, 111);
             this.CBoxEPresentacionBebida.Name = "CBoxEPresentacionBebida";
             this.CBoxEPresentacionBebida.Size = new System.Drawing.Size(95, 23);
-            this.CBoxEPresentacionBebida.TabIndex = 6;
-            this.CBoxEPresentacionBebida.SelectedIndexChanged += new System.EventHandler(this.CBoxEPresentacionBebida_SelectedIndexChanged);
+            this.CBoxEPresentacionBebida.TabIndex = 8;
             // 
             // LabIngredientes
             // 
@@ -153,9 +152,7 @@
             this.CBoxMesaNro.Location = new System.Drawing.Point(76, 19);
             this.CBoxMesaNro.Name = "CBoxMesaNro";
             this.CBoxMesaNro.Size = new System.Drawing.Size(36, 23);
-            this.CBoxMesaNro.TabIndex = 9;
-            this.CBoxMesaNro.SelectedIndexChanged += new System.EventHandler(this.CBoxMesaNro_SelectedIndexChanged);
-            this.CBoxMesaNro.MouseClick += new System.Windows.Forms.MouseEventHandler(this.CBoxMesaNro_MouseClick);
+            this.CBoxMesaNro.TabIndex = 0;
             // 
             // LabMesaNro
             // 
@@ -180,19 +177,19 @@
             this.TextNombreCliente.Location = new System.Drawing.Point(234, 19);
             this.TextNombreCliente.Name = "TextNombreCliente";
             this.TextNombreCliente.Size = new System.Drawing.Size(133, 23);
-            this.TextNombreCliente.TabIndex = 12;
-            this.TextNombreCliente.TextChanged += new System.EventHandler(this.TextNombreCliente_TextChanged);
+            this.TextNombreCliente.TabIndex = 2;
             // 
             // ListBoxIngredientes
             // 
             this.ListBoxIngredientes.FormattingEnabled = true;
             this.ListBoxIngredientes.ItemHeight = 15;
+            this.ListBoxIngredientes.Items.AddRange(new object[] {
+            ""});
             this.ListBoxIngredientes.Location = new System.Drawing.Point(330, 57);
             this.ListBoxIngredientes.Name = "ListBoxIngredientes";
             this.ListBoxIngredientes.Size = new System.Drawing.Size(154, 49);
-            this.ListBoxIngredientes.TabIndex = 13;
+            this.ListBoxIngredientes.TabIndex = 6;
             this.ListBoxIngredientes.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ListBoxIngredientes_MouseClick);
-            this.ListBoxIngredientes.SelectedIndexChanged += new System.EventHandler(this.ListBoxIngredientes_SelectedIndexChanged);
             // 
             // BtnAgregarProductos
             // 
@@ -202,14 +199,13 @@
             this.BtnAgregarProductos.Location = new System.Drawing.Point(330, 167);
             this.BtnAgregarProductos.Name = "BtnAgregarProductos";
             this.BtnAgregarProductos.Size = new System.Drawing.Size(132, 28);
-            this.BtnAgregarProductos.TabIndex = 15;
+            this.BtnAgregarProductos.TabIndex = 9;
             this.BtnAgregarProductos.Text = "Agregar Productos";
             this.BtnAgregarProductos.UseVisualStyleBackColor = false;
             this.BtnAgregarProductos.Click += new System.EventHandler(this.BtnAgregarProductos_Click);
             // 
             // backgroundWorker1
             // 
-            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
             // 
             // DataGridAgregarProductos
             // 
@@ -230,7 +226,6 @@
             this.DataGridAgregarProductos.RowTemplate.Height = 25;
             this.DataGridAgregarProductos.Size = new System.Drawing.Size(840, 202);
             this.DataGridAgregarProductos.TabIndex = 16;
-            this.DataGridAgregarProductos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridAgregarProductos_CellContentClick);
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -310,7 +305,6 @@
             // 
             this.CBoxNombreComida.FormattingEnabled = true;
             this.CBoxNombreComida.Items.AddRange(new object[] {
-            "",
             "Hamburguesa Simple",
             "Hamburguesa Especial",
             "Picada",
@@ -318,13 +312,12 @@
             this.CBoxNombreComida.Location = new System.Drawing.Point(114, 81);
             this.CBoxNombreComida.Name = "CBoxNombreComida";
             this.CBoxNombreComida.Size = new System.Drawing.Size(132, 23);
-            this.CBoxNombreComida.TabIndex = 21;
+            this.CBoxNombreComida.TabIndex = 5;
             // 
             // CBoxNombreBebida
             // 
             this.CBoxNombreBebida.FormattingEnabled = true;
             this.CBoxNombreBebida.Items.AddRange(new object[] {
-            "",
             "Coca Cola",
             "Pepsi",
             "Mojito",
@@ -342,7 +335,7 @@
             this.CBoxNombreBebida.Location = new System.Drawing.Point(586, 81);
             this.CBoxNombreBebida.Name = "CBoxNombreBebida";
             this.CBoxNombreBebida.Size = new System.Drawing.Size(131, 23);
-            this.CBoxNombreBebida.TabIndex = 22;
+            this.CBoxNombreBebida.TabIndex = 7;
             // 
             // BtnVolverMenuPrincipal
             // 
@@ -352,10 +345,23 @@
             this.BtnVolverMenuPrincipal.Location = new System.Drawing.Point(700, 12);
             this.BtnVolverMenuPrincipal.Name = "BtnVolverMenuPrincipal";
             this.BtnVolverMenuPrincipal.Size = new System.Drawing.Size(152, 30);
-            this.BtnVolverMenuPrincipal.TabIndex = 23;
+            this.BtnVolverMenuPrincipal.TabIndex = 10;
             this.BtnVolverMenuPrincipal.Text = "Volver al Menu Principal";
             this.BtnVolverMenuPrincipal.UseVisualStyleBackColor = false;
             this.BtnVolverMenuPrincipal.Click += new System.EventHandler(this.BtnVolverMenuPrincipal_Click);
+            // 
+            // BtnCargarOrden
+            // 
+            this.BtnCargarOrden.BackColor = System.Drawing.Color.Cyan;
+            this.BtnCargarOrden.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.BtnCargarOrden.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnCargarOrden.Location = new System.Drawing.Point(709, 167);
+            this.BtnCargarOrden.Name = "BtnCargarOrden";
+            this.BtnCargarOrden.Size = new System.Drawing.Size(133, 28);
+            this.BtnCargarOrden.TabIndex = 20;
+            this.BtnCargarOrden.Text = "Cargar Orden";
+            this.BtnCargarOrden.UseVisualStyleBackColor = false;
+            this.BtnCargarOrden.Click += new System.EventHandler(this.BtnCargarOrden_Click);
             // 
             // FormCargarOrden
             // 
@@ -363,6 +369,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(864, 450);
+            this.Controls.Add(this.BtnCargarOrden);
             this.Controls.Add(this.BtnVolverMenuPrincipal);
             this.Controls.Add(this.CBoxNombreBebida);
             this.Controls.Add(this.CBoxNombreComida);
@@ -422,5 +429,6 @@
         private System.Windows.Forms.ComboBox CBoxNombreComida;
         private System.Windows.Forms.ComboBox CBoxNombreBebida;
         private System.Windows.Forms.Button BtnVolverMenuPrincipal;
+        private System.Windows.Forms.Button BtnCargarOrden;
     }
 }

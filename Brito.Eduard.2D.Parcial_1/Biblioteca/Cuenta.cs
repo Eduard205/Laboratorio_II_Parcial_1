@@ -35,7 +35,11 @@ namespace Biblioteca
             ordenes = new Dictionary<int, int>();
 
         }
-
+        /// <summary>
+        /// Calcula el costo
+        /// </summary>
+        /// <param name="orden"></param>
+        /// <returns>Retorna el costo como float</returns>
         private static float CalcularCosto(List<Producto> orden)
         {
             float costo = 0;

@@ -18,11 +18,6 @@ namespace Formularios
             InitializeComponent();
         }
 
-        private void FormLogin_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void BtnAceptar_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(TextUsuario.Text) || string.IsNullOrEmpty(TextContrasenia.Text))
@@ -51,7 +46,6 @@ namespace Formularios
                     MessageBox.Show("Ingreso datos invalidos");
                 }
             }
-
         }
 
         private void BtnCancelar_Click(object sender, EventArgs e)
@@ -69,6 +63,6 @@ namespace Formularios
         {
             this.TextUsuario.Text = "35333999";
             this.TextContrasenia.Text = "Caja123";
-        }      
+        }
     }
 }

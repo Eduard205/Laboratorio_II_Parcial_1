@@ -41,7 +41,11 @@ namespace Biblioteca
         { 
             get { return nivelAcceso; } 
         }
-
+        /// <summary>
+        /// Comprueba el Password 
+        /// </summary>
+        /// <param name="datoIngresado"></param>
+        /// <returns>Retorna true si el Password es correcto</returns>
         public bool ComprobarPassword(string datoIngresado)
         {
             return (!string.IsNullOrEmpty(datoIngresado) && datoIngresado.Trim() == password.Trim());

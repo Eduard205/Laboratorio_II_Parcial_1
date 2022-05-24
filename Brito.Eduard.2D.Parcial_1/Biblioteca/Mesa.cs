@@ -13,7 +13,6 @@ namespace Biblioteca
 
         public Mesa()
         {
-
         }
 
         public Mesa(int mesaNro, Cliente cliente):this()
@@ -33,12 +32,17 @@ namespace Biblioteca
             get { return mesaNro; }
             set { mesaNro = value; }
         }
-
+       /// <summary>
+       /// Propiedad que retorna true si la mesa esta en la Barra
+       /// </summary>
         public bool EsBarra
         {
             get { return mesaNro > 15; }
         }
-
+        /// <summary>
+        /// Sobreescritura de ToString para mostrar si la mesa esta disponible
+        /// </summary>
+        /// <returns>Retorna un string con los datos de la mesa</returns>
         public override string ToString()
         {
             string tipoMesa;

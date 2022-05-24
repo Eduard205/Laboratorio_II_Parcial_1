@@ -15,6 +15,9 @@ namespace Biblioteca
             InstanciarUsuarios();
         }
 
+        /// <summary>
+        /// Instancia los usuarios Precargados
+        /// </summary>
         private static void InstanciarUsuarios()
         {
             listaUsuarios = new List<Usuario>()
@@ -23,7 +26,12 @@ namespace Biblioteca
                 new Usuario(35333999,"Florencia Perez","Caja123",ENivelAcceso.UsuarioAdmin),
             };
         }
-
+        /// <summary>
+        /// Loguea al usuario
+        /// </summary>
+        /// <param name="idUsuario"></param>
+        /// <param name="password"></param>
+        /// <returns>Retorna el usuario logueado</returns>
         public static Usuario LoguearUsuario(int idUsuario, string password)
         {
             foreach (Usuario item in listaUsuarios)
@@ -35,7 +43,10 @@ namespace Biblioteca
             }
             return null;
         }
-
+        /// <summary>
+        /// Instancia las Mesas con un Dictionary
+        /// </summary>
+        /// <returns>Retorna un dicionario con las mesas Harcodeadas</returns>
         private static Dictionary<int, Mesa> InstanciarMesas()
         {
             return listaMesas = new Dictionary<int, Mesa>
@@ -70,7 +81,9 @@ namespace Biblioteca
 
             };
         }
-
+        /// <summary>
+        /// Instancia los objetos de Tipo: Producto
+        /// </summary>
         private static void InstanciarProductos()
         {
             inventario = new List<Producto>()
@@ -82,14 +95,18 @@ namespace Biblioteca
 
               new Comida(nombre:"Hamburguesa Especial", cantidadDisponible:30, precio:800, new List<EIngredientes>(){
                   EIngredientes.Carne,EIngredientes.Lechuga,EIngredientes.Queso,EIngredientes.Tomate}),
-              new Comida(nombre:"Hambur Simple", cantidadDisponible:50, precio:400, new List<EIngredientes>(){
+              new Comida(nombre:"Hamburguesa Simple", cantidadDisponible:50, precio:400, new List<EIngredientes>(){
                   EIngredientes.Carne, EIngredientes.Queso}),
               new Comida(nombre:"Picada",cantidadDisponible:100, precio:700, new List<EIngredientes>(){
                   EIngredientes.Aceitunas,EIngredientes.Queso,EIngredientes.Salame,EIngredientes.Jamon})
             };
 
         }
-
+        /// <summary>
+        /// Muestra los datos de la mesa Harcodeada en el menu principal
+        /// </summary>
+        /// <param name="idMesa"></param>
+        /// <returns>string con los datos de la mesa</returns>
         public static string MostrarDatosMesa(int idMesa)
         {
             Mesa auxMesa = null;
