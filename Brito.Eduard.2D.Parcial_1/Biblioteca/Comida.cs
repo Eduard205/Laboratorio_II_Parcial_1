@@ -34,7 +34,7 @@ namespace Biblioteca
             this.ingredientes = ingredientes;
         }
 
-        /// <summary> Aumenta la cantidad disponible
+        /// <summary> Aumenta la cantidad disponible, el metodo se heredo de la clase Producto
         /// <param name="int value">Elemento a exponer</param>
         /// </summary>
         protected override int ComprarProducto 
@@ -42,7 +42,7 @@ namespace Biblioteca
             set { cantidadDisponible += value; }
         }
         /// <summary>
-        /// Repone el producto de tipo comida
+        /// Repone el producto de tipo comida, el metodo se heredo de la clase Producto
         /// </summary>
         /// <param name="cantidad"></param>
         /// <returns>true si repuso o false si no</returns>

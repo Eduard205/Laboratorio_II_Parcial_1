@@ -26,7 +26,10 @@ namespace Biblioteca
             this.presentacion = presentacion;
             this.conAlcohol = conAlcohol;
         }
-
+        /// <summary>
+        /// Sobreescritura del metodo ComprarProducto heredado de la clase Producto
+        /// Compra producto de tipo Comida
+        /// </summary>
         protected override int ComprarProducto 
         {
             set
@@ -34,7 +37,12 @@ namespace Biblioteca
                 this.cantidadDisponible += value * 12;
             }
         }
-
+        /// <summary>
+        /// Sobreescritura del metodo ReponerProducto heredado de la clase Producto.
+        /// Repone productos de tipo Comida
+        /// </summary>
+        /// <param name="cantidad"></param>
+        /// <returns></returns>
         public override bool ReponerProducto(int cantidad)
         {
             if (this.cantidadDisponible < 100 && cantidad > 0)
