@@ -57,7 +57,7 @@ de recargo al monto final.
   
   ## Diagrama de Clases:
   
-  ![image](https://user-images.githubusercontent.com/60559234/168914156-31611177-c581-4ff2-a023-87fa8bca239b.png)
+  ![image](https://user-images.githubusercontent.com/60559234/170136047-0bfcd990-5e52-4c8a-a21c-3923203690dc.png)
 
   ![image](https://user-images.githubusercontent.com/60559234/168913937-deba6e33-0cfc-4a70-8358-b770b7399ef6.png)
 
